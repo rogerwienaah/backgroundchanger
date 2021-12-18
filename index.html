@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Background Color Changer</h2>
+    <table>
+        <tr>
+            <td> <button id="red" onclick="changeColor('red');">R</button> </td>
+            <td> <button id="green" onclick="changeColor('green');">G</button> </td>
+            <td> <button id="blue" onclick="changeColor('blue');">B</button> </td>
+        </tr>
+        <tr>
+            <td> <button id="yellow" onclick="changeColor('yellow');">Y</button> </td>
+            <td> <button id="orange" onclick="changeColor('orange');">O</button> </td>
+            <td> <button id="blueviolet" onclick="changeColor('blueviolet');">V</button> </td>
+        </tr>
+        <tr>
+            <td> <button id="white" onclick="changeColor('white');">W</button> </td>
+            <td> <button id="pink" onclick="changeColor('pink');">P</button> </td>
+            <td> <button id="aqua" onclick="changeColor('aqua');">A</button> </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p class="footer-heart">
+            Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+            <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+            </g-emoji> by <a href="">Roger</a>
+        </p>
+    </footer>
+
+    <script>
+        
+        function changeColor(color)
+        {
+            document.querySelector('body').style.backgroundColor = color;
+        }
+
+       
+    </script>
+</body>
+
+
+<!-- Written with Passion By Roger -->
+</html>
