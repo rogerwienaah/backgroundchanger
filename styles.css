@@ -1,0 +1,118 @@
+h2
+{
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+/* table */
+table
+{
+    border: rgb(71, 71, 71) solid 5px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+tr
+{
+    height: 50px;    
+}
+td 
+{
+    text-align: center;
+    width: 50px;
+}
+
+/* buttons */
+#red
+{
+    background-color: red;
+}
+#green
+{
+    background-color: green;
+}
+#blueviolet
+{
+    background-color: blueviolet;
+}
+#white
+{
+    background-color: white;
+    color: black;
+}
+#orange
+{
+    background-color: orange;
+}
+#aqua
+{
+    background-color: aqua;
+}
+#aqua
+{
+    background-color: aqua;
+}
+
+#yellow
+{
+    background-color: yellow;
+}
+#blue
+{
+    background-color: blue;
+}
+#pink
+{
+    background-color: pink;
+}
+
+
+button
+{
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+button:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Made with Love by Roger footer*/
+.footer-heart
+{   text-align:center;
+    font-family: open sans, sans-serif;
+}
+
+.footer-heart a
+{   border-bottom: 1px solid #453886;
+    color: #453886;
+    padding-bottom: .25em;
+    text-decoration: none;
+}
+
+.footer-heart a:hover
+{   color:#2196f3; 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+}
+
+.emoji
+{   
+    vertical-align: middle;
+}
+
+
+/* Written with Passion by Roger */
